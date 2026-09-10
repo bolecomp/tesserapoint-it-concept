@@ -8,7 +8,7 @@
   --line: rgba(8, 19, 31, 0.14);
   --mint: #9bf4cf;
   --mint-dark: #1bc58a;
-  --acid: #d8ff5f;
+  --acid: #cbdc78;;
   --blue: #56b8ff;
   --danger: #ff8c74;
   --radius: 24px;
@@ -72,6 +72,9 @@ img, svg { display: block; max-width: 100%; }
 .nav-links { display: flex; align-items: center; gap: 30px; }
 .nav-links a { color: #dce4e8; text-decoration: none; font-size: .92rem; font-weight: 650; }
 .nav-links a:hover, .nav-links a:focus-visible { color: var(--acid); }
+.nav-links .button-primary {
+  color: var(--ink);
+}
 .nav-toggle { display: none; width: 44px; height: 44px; color: white; background: transparent; border: 1px solid rgba(255,255,255,.22); border-radius: 12px; }
 .nav-toggle span { display: block; width: 19px; height: 2px; margin: 4px auto; background: currentColor; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 50px; padding: 0 20px; border: 1px solid transparent; border-radius: 999px; text-decoration: none; font-size: .9rem; font-weight: 800; transition: transform .2s ease, background .2s ease, color .2s ease; }

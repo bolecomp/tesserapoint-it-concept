@@ -117,7 +117,7 @@ function renderResult() {
     </div>
     <div class="question-actions">
       <button class="button button-ink" type="button" data-restart>Retake assessment</button>
-      <a class="button button-primary" href="/#contact">Discuss the roadmap</a>
+      <a class="button button-primary" href="../index.html#contact">Discuss the roadmap</a>
     </div>
     <p class="demo-note">Concept demo: answers stay in your browser and are not transmitted or stored.</p>`;
   resultView.querySelector('[data-restart]').addEventListener('click', () => {
